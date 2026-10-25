@@ -1,0 +1,36 @@
+{
+  "name": "shrinkpix",
+  "version": "0.1.0",
+  "description": "Make any image as small as possible: AVIF/WebP with quality or hard size caps. CLI and library.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.35.5"
+  },
+  "bin": {
+    "shrinkpix": "bin/shrinkpix.js"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "keywords": [
+    "avif",
+    "webp",
+    "image",
+    "compress",
+    "optimize",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XFlexDev/shrinkpix.git"
+  }
+}
